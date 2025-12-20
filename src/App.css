@@ -1,4 +1,112 @@
-div{
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.parent{
+  /* border: 2px solid red; */
+  /* height: 200px; */
+  display: flex;
+}
+
+.first{
+  background-image: url(https://wallpapers.com/images/hd/one-piece-logo-phone-mzaflgtbgm24kv0d.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1400px ;
+  width: 40%;
+}
+
+.second{
+  /* background-color: red; */
+  height: 100vh;
+  width: 60%;
+  /* border: 2px solid blue; */
+}
+
+.photo{
+  background-image: url(https://e0.pxfuel.com/wallpapers/945/417/desktop-wallpaper-sydney-sweeney-is-standing-in-black-background-wearing-white-black-coat-suit-girls.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* border: 2px solid green; */
+  height: 420px;
+}
+
+.content{
+  padding: 30px;
+  padding-right: 60px;
+}
+
+.line{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1{
+  color: orangered;
+  font-size: 70px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h2{
+  color: orangered;
+  letter-spacing: 10px;
+  font-size: 30px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+p{
+  font-size: large;
+  margin-bottom: 5px;
+  color: gray;
+  text-align: justify;
+}
+
+.content2{
+  display: flex;
+}
+
+.fab{
+  border-radius: 50%;
   border: 2px solid black;
-  height: 300px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.partners{
+  padding-right: 150px;
+}
+
+.media{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box{
+  background-color: orangered;
+  height: 180px;
+  width: 180px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: x-large;
+  font-weight: lighter;
+}
+
+i{
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.icons{
+  margin-top: 15px;
 }
