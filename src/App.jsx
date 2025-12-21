@@ -25,17 +25,17 @@ function App() {
           <div className="content2">
             <div className="partners">
               <h2>PARTNERS</h2>
-              <p>Partner 01</p>
-              <p>Partner 02</p>
-              <p>Partner 03</p>
-              <p>Partner 04</p>
+              <p className="par">Partner 01</p>
+              <p className="par">Partner 02</p>
+              <p className="par">Partner 03</p>
+              <p className="par">Partner 04</p>
             </div>
             <div className="sponsors">
               <h2>SPONSORS</h2>
-              <p>Sponsor 01</p>
-              <p>Sponsor 02</p>
-              <p>Sponsor 03</p>
-              <p>Sponsor 04</p>
+              <p className="par">Sponsor 01</p>
+              <p className="par">Sponsor 02</p>
+              <p className="par">Sponsor 03</p>
+              <p className="par">Sponsor 04</p>
             </div>
           </div>
           <h2>MEDIA REACH</h2>
