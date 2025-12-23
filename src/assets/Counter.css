@@ -1,0 +1,23 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: full;
+    background-color: green;
+
+}
+
+h2,h1{
+    text-align: center;
+}
+
+button{
+    margin: 30px;
+    text-align: center;
+    background-color: aqua;
+    border: 1px solid ;
+    height: 40px;
+    border-radius: 10px;
+}
