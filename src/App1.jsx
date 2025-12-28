@@ -9,8 +9,8 @@ function App1() {
     <div>
       {/* <Product/> */}
       {/* <Counter/> */}
-      {/* <Count/> */}
-      <Form/>
+      {/* <Form/> */}
+      <Count/>
     </div>
   )
 }

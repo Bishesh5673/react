@@ -4,7 +4,7 @@ import "./Count.css";
 
 function Count() {
   const [val, setVal] = useState(0);
-  const [step, setStep] = useState(1);
+  const [step, setStep] = useState(0);
   const resetCounter = () => {
     setVal(0);
     setStep(1);
@@ -23,16 +23,21 @@ function Count() {
         <div className="box">
           <button onClick={() => setVal(val + 5)}>Add 5</button>
           <button onClick={() => setVal(val - 5)}>Subtract 5</button>
-
-          <div>
-            <input
-                className="inp"
-              type="number"
-              value={step}
-              onChange={(e) => setStep(Number(e.target.value))}
-            />
-            <button className="plus" onClick={() => setVal(val + step)}>+</button>
-          </div>
+        </div>
+        <div className="box">
+          <input
+            className="inp"
+            type="text"
+            inputMode="numeric"
+            value={step}
+            onChange={(e) => setStep(Number(e.target.value.replace(/\D/g, "")))}
+          />
+          <button className="plus" onClick={() => setVal(val + step)}>
+            +
+          </button>
+          <button className="plus" onClick={() => setVal(val - step)}>
+            -
+          </button>
         </div>
       </div>
     </div>

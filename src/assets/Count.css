@@ -9,21 +9,28 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    padding-bottom: 0px;
+    justify-content: end;
     text-align: center;
     align-items: center;
 }
 
 .heading{
     margin: 80px ;
+    color: black;
+    font-weight: lighter;
 }
 
 .child{
-    border: 1px solid black;
-    width: 400px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    width: 350px;
     height: full;
     margin-top: 0px;
-    background-color: red;
+    margin-bottom: 0px;
+    /* background-color: red; */
+    background-image: linear-gradient(to bottom, aqua,rgb(244, 232, 232));
+    box-shadow: -3px 3px 40px -1px black;
     /* margin: auto; */
 }
 
@@ -36,19 +43,21 @@
 
 .child h1{
     margin: 40px 0px 40px 0px;
+    color: black;
 }
 
 .box{
     padding: 30px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
 }
 
 button{
-    background-color: green;
+    background-color: aqua;
     border: none;
-    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     width: 150px;
     height: 50px;
     font-size: large;
@@ -60,14 +69,16 @@ button:hover{
 
 .plus{
     width: 50px;
-    margin-right: 0px;
+    /* margin-right: 0px; */
 }
 
 .inp{
     height: 50px;
-    width: 255px;
-    background-color: green;
+    width: 150px;
+    margin-right: 10px;
+    background-color: aqua;
     text-align: center;
     font-size: large;
     border: none;
+    border-radius: 10px;
 }
